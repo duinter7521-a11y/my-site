@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #222;
+    padding: 0;
+    flex-direction: column;
+}
+
+
+nav {
+    background-color: #1d3557;
+    padding: 8px 0;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    margin-right: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    background-color: #457b9d;
+}
+
+header {
+    background-color: #457b9d;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 0 20px;
+    background-color: white;
+}
+
+h2 {
+    color: #1d3557;
+    border-bottom: 2px solid #457b9d;
+    padding-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaçamento entre células */
+    font-family: Arial, sans-serif;
+    margin: 20px 0;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+th, td {
+    padding: 12px 15px; /* Espaçamento interno */
+    text-align: left; /* Alinhamento do texto */
+    border: 1px solid #ddd; /* Borda sutil */
+}
+
+th {
+    background-color: #457b9d; /* Cor de fundo para cabeçalhos */
+    color: white; /* Cor do texto nos cabeçalhos */
+    font-weight: bold; /* Negrito nos cabeçalhos */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor de fundo para linhas pares (efeito zebra) */
+}
+
+tr:hover {
+    background-color: #e9ecef; /* Cor de fundo ao passar o mouse */
+}
+
+footer {
+    background-color: #1d3557;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+     box-sizing: border-box;
+
+}
